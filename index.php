@@ -36,10 +36,9 @@
 				if($cook){
 					echo "<p>вы админ</p>";
 				}
-				else {
-					echo "Войдите чтобы создавать темы";
-				}
-				?>
+				else { ?>
+					<p><a href="">Войдите</a> чтобы создавать темы</p>
+				<?php } ?>
 			</aside>
 		</div>
 		<footer id="footer">
