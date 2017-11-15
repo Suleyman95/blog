@@ -1,0 +1,84 @@
+@import url(animation.css);
+@import url(fontello.css);
+@import url(fontello-codes.css);
+@import url(fontello-embedded.css);
+@import url(fontello-ie7.css);
+@import url(fontello-ie7-codes.css);
+
+@font-face{
+	font-family:Roboto-Light;
+	src:url(../font/Roboto-Light.ttf);
+}
+
+@font-face{
+	font-family:Roboto-LightItalic;
+	src:url(../font/Roboto-LightItalic.ttf);
+}
+
+@font-face{
+	font-family:Roboto-Bold;
+	src:url(../font/Roboto-Bold.ttf);
+}
+
+@font-face{
+	font-family:Roboto-Medium;
+	src:url(../font/Roboto-Medium.ttf);
+}
+
+@font-face{
+	font-family:Roboto-Regular;
+	src:url(../font/Roboto-Regular.ttf);
+}
+
+@font-face{
+	font-family:Roboto-Thin;
+	src:url(../font/Roboto-Thin.ttf);
+}
+
+@font-face{
+	font-family:Roboto-ThinItalic;
+	src:url(../font/Roboto-ThinItalic.ttf);
+}
+
+@font-face{
+	font-family:RussoOne-Regular;
+	src:url(../font/RussoOne-Regular.ttf);
+}
+
+
+@font-face{
+	font-family:MarckScript-Regular;
+	src:url(../font/MarckScript-Regular.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
