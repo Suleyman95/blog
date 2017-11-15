@@ -33,10 +33,10 @@
 			<aside class="aside">
 				<?php
 				$cook = $_COOKIE['temp_pass'];
-				if($cook){
-					echo "<p>вы админ</p>";
-				}
-				else { ?>
+				if( $cook ) { ?>
+					<p>вы админ</p>
+				<?php } ?>
+				<?php else { ?>
 					<p><a href="">Войдите</a> чтобы создавать темы</p>
 				<?php } ?>
 			</aside>
