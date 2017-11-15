@@ -1,4 +1,4 @@
-<form action='../actions/auth.php' method='POST'>
+<form method='POST'>
 	Логин<br>
 	<input type='text' name='login'><br>
 	Пароль<br>
