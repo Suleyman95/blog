@@ -34,6 +34,8 @@ $cook = $_COOKIE['temp_pass'];
 				<article>
 					<?php if($_GET['crt']==1) : ?>
 						<?php include '../blocks/create-form.php'; ?>
+					<?php else : ?>
+						<?php include '../actions/show-themes.php'; ?>
 					<?php endif; ?>
 				</article>
 			</section>
