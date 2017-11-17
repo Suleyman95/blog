@@ -32,16 +32,19 @@ $cook = $_COOKIE['temp_pass'];
 		<div id="content">
 			<section class="section">
 				<article>
-					<?php if($_GET['crt']==1) : ?>
+					<?php if( $_GET['crt'] == 1 ) : ?>
 						<?php include '../blocks/create-form.php'; ?>
+					<?php elseif( $_GET['id'] ) : ?>
+						<?php $idTheme = $_GET['id']; ?>
+						<?php include '../actions/get-theme.php'; ?>
 					<?php else : ?>
 						<?php include '../actions/show-themes.php'; ?>
 					<?php endif; ?>
 				</article>
 			</section>
 			<aside class="aside">
-				<?php if($cook && $pas) : ?>
-					<?php if($cook == $pas) : ?>
+				<?php if( $cook && $pas ) : ?>
+					<?php if( $cook == $pas ) : ?>
 						<p><a href="?crt=1">Создать тему</a></p>
 						<p><a href="../actions/logout.php?out=1">Выйти</a></p>
 					<?php endif; ?>
