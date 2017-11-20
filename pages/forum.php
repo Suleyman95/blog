@@ -1,7 +1,6 @@
 <?php
 include('../actions/auth.php');
 include('../actions/compare.php');
-$cook = $_COOKIE['temp_pass'];
 //setcookie("temp_pass", $pass, time()-3600, "/");
 ?>
 <!DOCTYPE html>
@@ -35,8 +34,11 @@ $cook = $_COOKIE['temp_pass'];
 					<?php if( $_GET['crt'] == 1 ) : ?>
 						<?php include '../blocks/create-form.php'; ?>
 					<?php elseif( $_GET['id'] ) : ?>
+						<?php $idTheme = 0; ?>
 						<?php $idTheme = $_GET['id']; ?>
 						<?php include '../actions/get-theme.php'; ?>
+							<?php if( $cook && $pas ) : ?>
+								<?php //если условие будет инстинно, подключить файл создания сообщения ?>
 					<?php else : ?>
 						<?php include '../actions/show-themes.php'; ?>
 					<?php endif; ?>
